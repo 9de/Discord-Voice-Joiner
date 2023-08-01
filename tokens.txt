@@ -1,0 +1,2 @@
+token1:channelid1
+token2:channelid2
