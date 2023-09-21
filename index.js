@@ -37,13 +37,6 @@ async function loginbot(token, channelid) {
   await client.login(token).catch(() => {console.log(`${token} is Not Working!`)}); // Wait for the bot to log in before resolving the Promise
 }
 
-function randomupdates() {
-  const updates = ["Muted","Defened","MutedAnddefened","unmuteandunDefened"]
-  const random = Math.random(Math.floor())
-}
-
-
-
 fs.readFile('tokens.txt', (err, data) => {
   if (err) {
     fs.writeFileSync('tokens.txt');
